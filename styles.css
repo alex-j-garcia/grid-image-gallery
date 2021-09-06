@@ -1,4 +1,16 @@
 /********************
+|| Fonts
+*********************/
+
+@font-face {
+  font-family: 'weekly_freesemibold';
+  src: url('/assets/fonts/weeklyfree-semibold-webfont.woff2') format('woff2'),
+       url('/assets/fonts/weeklyfree-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/********************
 || General Styles
 *********************/
 html {
@@ -7,7 +19,7 @@ html {
 
   /* Other */
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'weekly_freesemibold', Arial, Helvetica, sans-serif;
 
   /* CSS Variables */
 }
@@ -19,6 +31,16 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+}
+
+body {
+  padding: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 10rem;
 }
 
 /********************
