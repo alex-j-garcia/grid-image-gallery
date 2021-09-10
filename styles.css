@@ -64,6 +64,7 @@ img {
   grid-gap: .5rem;
   gap: .5rem;
   grid-auto-flow: dense;
+  max-width: 1800px;
 }
 
 .vertical {
