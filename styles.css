@@ -125,20 +125,11 @@ img {
     /* Display & Box Model */
     grid-template-columns: 1fr;
     grid-auto-rows: auto;
-    grid-auto-flow: row;
   }
 
-  .vertical {
-    /* Display & Box Model */
-    grid-row: auto;
-  }
-
-  .square {
-    /* Display & Box Model */
-    grid-column: auto;
-    grid-row: auto;
-  }
-  
+  .vertical,
+  .square,
+  .normal,
   .big {
     /* Display & Box Model */
     grid-column: auto;
